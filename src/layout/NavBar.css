@@ -1,0 +1,42 @@
+.navbar{
+    display: flex; 
+    background: #ffffff;
+    justify-content: space-between;
+    box-shadow: 10px 5px 5px rgb(235, 230, 230);
+    padding: 0px 0px;
+ }
+ h1.ant-typography{ 
+       
+        text-align: left ;
+        
+ }
+ 
+ .title{
+     font-size:50px;
+    margin-right: 55%;
+     
+ }
+ .ant-menu-vertical{
+     border-right: 0;
+ }
+ .ant-menu-root.ant-menu-vertical{
+      align-items: center;
+ }
+ .img{
+ padding: 1%;
+ }
+ .ant-dropdown-link{
+     height: 45px;
+     margin-right: 1%;
+     margin-top: 0.5%;
+     color: #d41313;
+ }
+ a:hover{
+     color: #4fd1b1;
+ }
+ 
+   
+ .ant-layout .ant-layout-header{
+    background-color:aliceblue
+
+ }
