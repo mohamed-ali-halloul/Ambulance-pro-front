@@ -21,3 +21,10 @@ export const login = (email, password) => async (dispatch) => {
       return Promise.reject(error);
     }
   };
+  export const signOut = () => {
+    return (dispatch) => {
+      dispatch({
+        type: "SIGN_OUT",
+      });
+    };
+  };

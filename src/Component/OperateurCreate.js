@@ -72,7 +72,7 @@ const AddTransport = () => {
       <Form
         name="basic"
         labelCol={{ span: 5 }}
-        wrapperCol={{ span: 16 }}
+        wrapperCol={{ span: 13 }}
         noValidate
         autoComplete="off"
         onSubmit
@@ -112,6 +112,9 @@ const AddTransport = () => {
   </Form.Item>
         <Form.Item label="tel">
           <InputNumber
+          
+          min={999999999}
+          max={9999999999}
             id="enter-tel"
             variant="outlined"
             value={transport.tel}

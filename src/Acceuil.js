@@ -1,8 +1,8 @@
 import { useHistory } from "react-router-dom";
-
-
+import logos from "./layout/img5.jpg"
+import { Image } from "antd";
 import SignIn from "./signin";
-
+import "./Acceuil.css";
 const Acceuil = () => {
   const history = useHistory();
 
@@ -11,13 +11,14 @@ const Acceuil = () => {
     <>
       {" "}
       <div className="acc">
-     
-    
-          <div className="d1">
-            <h1 className="titre">Welcome to Ambulance PRO</h1>
+        <div className="img1">
+      <Image src={logos} width={300} preview={false} />
+  </div>  
+               
             <SignIn />
            
-          </div>
+  
+
         </div>
     </>
   );

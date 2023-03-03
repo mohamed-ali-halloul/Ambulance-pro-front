@@ -9,6 +9,7 @@ import AddTransport from "./Component/OperateurCreate";
 import ListeTransport from "./Component/ListeTransport";
 import AddEtablist from "./Component/etbcreate";
 import TransportUrg from "./Component/TransportUrg";
+import EtbsListe from "./Component/EtbsListe";
 function App() {
   return (
     <div className="App">
@@ -24,6 +25,7 @@ function App() {
           <Route path="/TransportList"exact component={ListeTransport} />
           <Route path="/AddEtablis" exact component={AddEtablist}/>
           <Route path="/TransportUrg" exact component={TransportUrg}/>
+          <Route path="/EtbsListe" exact component={EtbsListe}/>
           </LayoutDashboard>
           <Route
             path="*"

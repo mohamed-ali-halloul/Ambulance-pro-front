@@ -1,8 +1,7 @@
 .navbar{
     display: flex; 
-    background: #ffffff;
+    background-color: rgb(255, 255, 255);
     justify-content: space-between;
-    box-shadow: 10px 5px 5px rgb(235, 230, 230);
     padding: 0px 0px;
  }
  h1.ant-typography{ 
@@ -23,20 +22,19 @@
       align-items: center;
  }
  .img{
- padding: 1%;
+   width: 72px;
  }
  .ant-dropdown-link{
-     height: 45px;
-     margin-right: 1%;
-     margin-top: 0.5%;
-     color: #d41313;
+     height: 100%;
+    
+
+  
  }
- a:hover{
-     color: #4fd1b1;
+ .ant-dropdown-trigger .ant-dropdown-link{
+    margin: auto;
  }
- 
    
  .ant-layout .ant-layout-header{
-    background-color:aliceblue
+    background-color:rgb(255, 255, 255);
 
  }

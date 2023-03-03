@@ -29,7 +29,7 @@ const SideBar= () => {
       history.push('/AddEtablis');
     }
    const handleEtablisClick=()=>{
-     history.push('/EtablisListe')
+     history.push('/EtbsListe')
    }
    const handleTarif=()=>{
      history.push('/readtarifs') }

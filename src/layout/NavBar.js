@@ -1,23 +1,22 @@
 import React from "react";
-
+import logo from "./img5.jpg"  ;
 import {  Menu, Dropdown  } from "antd";
-//import logo from "./Locbox.png"
 import { Link, useHistory } from "react-router-dom";
 import { UserOutlined, LogoutOutlined,DownOutlined  } from '@ant-design/icons';
 import { useDispatch, useSelector } from "react-redux";
 import './NavBar.css'
-//import { signOut } from "../../store/actions/authActions";
+import { signOut } from "../store/action/authActions";
 const NavBar = () => {
   const history = useHistory();
   const dispatch = useDispatch();
-  //const state = useSelector((state) => state);
+  const state = useSelector((state) => state);
   console.log("---------------------------")
-  //console.log(state);
-  //const user = useSelector((state) => state.users);
+  console.log(state);
+  const user = useSelector((state) => state.users);
   const handleSignOut = () => {
-  /*  dispatch(signOut());
+    dispatch(signOut());
     history.push("/");
-  */};
+  };
   const handleProfileClick=()=>{
     history.push('/profile');   }
   const menu = (
@@ -34,6 +33,7 @@ const NavBar = () => {
     
     <div className="navbar">
         
+        <img src={logo} width={200} className="img" />
            
        
         {/* <Menu theme="light" mode="vertical" style={{display :"flex"}}   >
@@ -51,12 +51,12 @@ const NavBar = () => {
             </>
  
         </Menu> */}
-         {/* /<Dropdown>
+         <Dropdown overlay={menu}>
     <a className="ant-dropdown-link" onClick={e => e.preventDefault()}>
     <UserOutlined />
-            <DownOutlined />
+        <DownOutlined />
     </a>
-  </Dropdown>*/ }
+  </Dropdown>
         </div>
     </>
   );
