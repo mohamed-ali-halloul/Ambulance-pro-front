@@ -1,4 +1,4 @@
-# 🚑 Ambulance Pro — Frontend
+#  Ambulance Pro — Frontend
 
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=flat-square&logo=react)
 ![Redux](https://img.shields.io/badge/Redux_Toolkit-1.9.2-764ABC?style=flat-square&logo=redux)
@@ -11,7 +11,7 @@
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 
 - [About](#about)
 - [Tech Stack](#tech-stack)
@@ -23,13 +23,13 @@
 
 ---
 
-## 📌 About
+##  About
 
 **Ambulance Pro Frontend** is a React-based web application that provides a user interface for managing ambulance operations, patient requests, and dispatch coordination. It communicates with the backend API to deliver real-time data to operators and administrators.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Version |
 |---|---|
@@ -43,7 +43,7 @@
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -73,7 +73,7 @@ REACT_APP_API_URL=http://localhost:8080/api
 
 ---
 
-## 📜 Available Scripts
+##  Available Scripts
 
 ```bash
 # Start the development server
@@ -105,7 +105,7 @@ Ambulance-pro-front/
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/my-feature`)
@@ -115,10 +115,10 @@ Ambulance-pro-front/
 
 ---
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License.
 
 ---
 
-<p align="center">Made with ❤️ by <a href="https://github.com/mohamed-ali-halloul">Mohamed Ali Halloul</a></p>
+<p align="center">Made by <a href="https://github.com/mohamed-ali-halloul">Mohamed Ali Halloul</a></p>
